@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#262453" />
+    <meta name="description" content="Site institucional da empresa JEFF informática">
+    <title>JEFF INFORMÁTICA</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Poppins:wght@300;400;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container_logo">
+            <img src="./images/logo.webp" alt="Logomarca Jeff">
+        </div>
+        <nav>
+            <ul aria-label="Navegação Primária" class="navegacao-primaria">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">sobre</a></li>
+                <li><a href="#contact">contato</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+
+    <div class="bg-fundo">
+        <div class="conteudo-bg">
+            <h6>Seu notebook ou PC não liga? Está lento?</h6>
+            <p><img src="./images/icon-zap.webp" alt="Icone do WhatsApp"> Atendimento via WhatsApp</p>
+            <a href="https://api.whatsapp.com/send?phone=5511952229520&text=" target="_blank">(11) 95222-9520</a>
+            <a class="button" href="https://api.whatsapp.com/send?phone=5511952229520&text=" target="_blank">Orçamento
+                Gratuíto</a>
+        </div>
+    </div>
+
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <div class="container-servicos">
+                <img src="./images/marcas.jpg" alt="Marcas de Notebooks">
+                <h1>SEJA BEM VINDO A JEFF INFORMÁTICA</h1>
+                <h2>Nossos Serviços</h2>
+                <div class="itens-servicos">
+                    <div>
+                        <img src="./images/icon1.png" alt="Icone de reparo">
+                        <h3>Assistência<br>Técnica</h3>
+                        <p>Reparos e manutenções de notebooks com profissionais qualificados</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info">
+                            Saiba Mais
+                        </button>
+                        <div class="collapse" id="info">
+                            <p>TRABALHAMOS COM REPARO DE NOTEBOOK E COMPUTADORES TODAS AS MARCAS.</p>
+                            <ul aria-label="Lista de serviços" id="itens-list">
+                                <li>manutenção preventiva</li>
+                                <li>Formatação de Notebook</li>
+                                <li>Troca de Peças</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/icon2.png" alt="Icone de upgrade">
+                        <h3>Upgrade</h3>
+                        <p>Melhoramos o desempenho do seu notebook de acordo com suas necessidades</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info2">
+                            Saiba Mais
+                        </button>
+                        <div class="collapse" id="info2">
+                            <ul aria-label="Lista de serviços" id="itens-list">
+                                <li>Instalação de hardware</li>
+                                <li>Aumento de memória e hd/ssd</li>
+                                <li>Instalação de SSD como primário ou secundário</li>
+                                <li>Trocas de placas de vídeo</li>
+                                <li>Melhora na performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/icon3.png" alt="Icone de instalação">
+                        <h3>Instalação de<br>Software</h3>
+                        <p>Melhoramos o desempenho do seu notebook de acordo com suas necessidades</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info3">
+                            Saiba Mais
+                        </button>
+                        <div class="collapse" id="info3">
+                            <ul aria-label="Lista de serviços" id="itens-list">
+                                <li>Sistema Operacional windows e mac</li>
+                                <li>pacote office</li>
+                                <li>softwares em geral</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/icon3.png" alt="Icone de instalação">
+                        <h3>Recuperação de<br> Dados</h3>
+                        <p>Recuperamos HDs defeituosos e arquivos deletados acidentalmente</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info4">
+                            Saiba Mais
+                        </button>
+                        <div class="collapse" id="info4">
+                            <ul aria-label="Lista de serviços" id="itens-list">
+                                <li>hd corrompido</li>
+                                <li>higienização</li>
+                                <li>recuperação de dados</li>
+                                <li>formatação</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/icon4.png" alt="Icone de virus">
+                        <h3>Remoção de<br> Vírus</h3>
+                        <p>Eliminamos vírus e malwares que estejam interferindo na segurança e desempenho de seu
+                            notebook</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info5">
+                            Saiba Mais
+                        </button>
+                        <div class="collapse" id="info5">
+                            <ul aria-label="Lista de serviços" id="itens-list">
+                                <li>verificação de vírus</li>
+                                <li>limpeza de arquivos infectados</li>
+                                <li>envio de arquivos para quarentena</li>
+                                <li>formatação</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/icon5.png" alt="Icone de visita">
+                        <h3>Visita Domiciliar<br> e Corporativa</h3>
+                        <p>Temos técnicos capacitados para realizar manutenções direto na sua casa ou empresa</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#info6">
+                            Saiba Mais
+                        </button>
+                        <div class="collapse" id="info6">
+                            <ul aria-label="Lista de serviços" id="itens-list">
+                                <li>visitas em residências e empresas</li>
+                                <li>diagnóstico local</li>
+                                <li>suporte para usuários</li>
+                                <li>upgrades e instalações de software em geral</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="produtos">
+        <h2>produtos</h2>
+        <h4>Trabalhamos com produtos de qualidade e relevantes no mercado de informática</h4>
+        <div class="container-produtos">
+            <div class="item-produtos">
+                <img src="./images/lcd.webp" alt="Foto de uma tela LCD">
+                <h3>Telas LCD<br> 8.9‘ até 17’</h3>
+                <p>Telas de LCD de ótimas marcas para diversas utilidades</p>
+            </div>
+            <div class="item-produtos">
+                <img src="./images/hds.jpg" alt="Foto de um HD">
+                <h3>HDs <br> e SSDs</h3>
+                <p>As melhores marcas de SSDs e HDs disponíveis no mercado</p>
+            </div>
+            <div class="item-produtos">
+                <img src="./images/memoria.png" alt="Foto de um pente de memória">
+                <h3>Memória<br>RAM</h3>
+                <p>Melhore o desempenho de seu notebook com nossas inúmeras opções de memória RAM</p>
+            </div>
+            <div class="item-produtos">
+                <img src="./images/bateria.png" alt="Foto de uma fonte de recarga">
+                <h3>Baterias e<br> Fontes</h3>
+                <p>Encontre as principais marcas de baterias e fontes para o seu notebook</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="container-sobre">
+                <h2>Sobre Nós</h2>
+                <p>Em Meados de Junho de 2007 comecei a cursar o básico em Windows e Microsoft Office, e me tornei
+                    um rapaz apaixonado por tecnologia, tanto na parte de hardware como na parte de software o que
+                    muito
+                    me fascina.
+                    Logo em seguida consegui um estágio remunerado em uma assistência técnica especializada em 
+                    Notebooks
+                    (Autorizada Acer, Emachines e Gateway) onde aprendi a trabalhar e me empenhar de verdade e
+                    avançar
+                    nos conhecimentos e em 2011 fui trabalhar na TI (CPD) em um hospital de referência onde foi possível
+                    aprender
+                    mais e agregar novos valores. Em 2013 decidi que iria dar um passo maior e encarar um novo
+                    desafio
+                    que seria o de trabalhar por conta própria e ter minha empresa e foi aí que nasceu a JEFF
+                    INFORMÁTICA,
+                    onde com muito suor, empenho e dedicação conseguimos ser uma referência em assistência técnica
+                    na
+                    região
+                    de Itaquera zona leste de São Paulo onde atualmente atendemos e temos muitos clientes que se
+                    tornam amigos alem de parceria com grandes empresas de diversos segmentos.
+                </p>
+                <img src="./images/pessoal.webp" alt="Foto minha trabalhando">
+            </div>
+            <div class="mvv">
+                <div>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <h3>Missão</h3>
+                    <p>Atuar com padrões de excelência no serviço aos clientes, aperfeiçoando processos,
+                        habilidades humanas e profissionais.</p>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-eye-low-vision"></i>
+                    <h3>Visão</h3>
+                    <p>Ser reconhecido no ramo de assistência técnica em informática através de um excelente
+                        serviço prestado, buscando qualidade no atendimento e inovação nos produtos oferecidos.
+                        Superando as expectativas dos nossos clientes.</p>
+                </div>
+
+                <div class="valores">
+                    <i class="fa-solid fa-elevator"></i>
+                    <h3>Valores</h3>
+                    <p>Compromisso com o cliente, honestidade, integridade, ética e comprometimento com as metas
+                        estabelecidas pelos nossos amigos e clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container-contact">
+            <div class="title-contact">
+                <h1>Fique tranquilo! com a JEFF Informática o<br> serviço é especializado</h1>
+                <p>Garantimos um serviço de qualidade por sermos um profissional especializado em notebooks e
+                    sempre atualizados com as novidades da área. Com a JEFF Informática você tem satisfação garantida.
+                </p>
+                <a class="button" href="https://api.whatsapp.com/send?phone=5511952229520&text="
+                    target="_blank">Orçamento
+                    Gratuíto</a>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.435498406043!2d-46.
+                472243125713995!3d-23.552797561275717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                1s0x94ce66e676783427%3A0xbdc98291ab976cbb!2sR.%20Rio%20Mamanguape%2C%20567%20-
+                %20Cidade%20L%C3%ADder%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008285-120!5e0!3m2!1spt-BR!2sbr!
+                4v1696855018422!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <h3>Entre em Contato</h3>
+                    <div class="inputform">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" placeholder="Nome:" required>
+                    </div>
+                    <div class="inputform">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" name="email" placeholder="E-mail:" required>
+                    </div>
+                    <div class="inputform">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="text" name="phone" placeholder="Telefone:" required>
+                    </div>
+                    <div class="inputform">
+                        <textarea name="message">Mensagem: </textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="accessKey" value="9fb39998-3145-4d6b-8ead-16df7cbdd6ce">
+                    <input type="hidden" name="redirectTo" value="http://www.jeffinformatica.com.br/thanks.html">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <div class="copy">
+                2023 &copy; JEFF INFORMÁTICA - Todos os direitos reservados.<br>
+                <a href="http://www.douglascunhadev.com.br/">Desenvolvido por Douglas Cunha</a>
+            </div>
+            <div class="icon-sociais">
+                <a href="https://www.instagram.com/jeffinformatica/?igshid=YmMyMTA2M2Y%3D"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://m.facebook.com/jefftecinformatica/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="buttonzap">
+                <a href='https://api.whatsapp.com/send?phone=5511952229520&text=' class="icon" target='_blank'><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/script.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLNN1QJGE0">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-SLNN1QJGE0');
+    </script>
+</body>
+
+</html>
